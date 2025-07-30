@@ -3,15 +3,20 @@ Some programs regarding patterns to get the pactice of loops..
 */
 # include <iostream>
 using namespace std;
-int main(){
-    int n=4;
-    for (int i=1;i<=n;i++){
-        for (int j=1; j<=n; j++){
-            cout<<j;
+void pattern01(){
+    for(int row = 1; row <= 5 ; row ++){
+         for(int col = 1; col <= row; col++ ){
+            cout << "* ";
         }
-
-        cout<< endl;
+        cout << endl;
     }
-    return 0;
+}
+void pattern02(){
     
+}
+
+
+int main(){
+    pattern01();
+    return 0;
 }
